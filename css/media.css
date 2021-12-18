@@ -1,0 +1,37 @@
+  small
+@media (min-width:768px) {
+   .contaner{
+      width:750px ;
+
+   }    
+   }
+   /* mediam */
+   @media (max-width:992px) {
+      .services .contaner .servece-content .index {
+         display: none;
+      }
+      .services .contaner  .servece-content{grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));}
+      .About .contaner .library .image::before {display: none;}
+      .About .contaner .library .image::after {display: none;}
+      .services .contaner  .servece-content .big-colm {margin: 23px auto;}
+      .Portfolio  .contaner .big-card .card{margin: 23px auto;}
+      .About .contaner .library {    grid-template-columns: repeat( auto-fill , minmax(300px , 1fr) );}
+      .About .contaner .library .image  {margin: 23px auto;}
+      .About .contaner .library .text .text1{    font-size: 14px;font-weight: 800;line-height: 30px;text-align: center;}
+      .About .contaner .library .text .text2{    font-size: 14px;font-weight: lighter;line-height: 1.6;text-align: center;}
+      .landing .intro-text h1 {font-size: 2em;}
+      .landing .intro-text p{font-size: 17px;}
+      .back-serveces{    font-size: 77px;}
+      .back-serveces + p {font-size: 11px;     margin: -15px 0 0;}
+      .Contact .contaner .Feel{font-size: 23px;}
+      .Contact .contaner a{    font-size: 22px; letter-spacing: -1px;}
+      footer p{font-size: 11px;}
+      .header {    padding: 0 24px;}
+   }
+
+   /* larg */
+   @media (max-width:1200px) {
+      
+      .services .contaner .servece-content .index::before{    right: -11px;}
+      .landing .intro-text h1{font-size: 5em;}
+   }    
